@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Clase</string>
+    <string name="primer_textview">Primer TextView</string>
+    <string name="segundo_textview">Segundo TextView</string>
+    <string name="hola_mundo">Hola mundo</string>
+    <string name="hola_planeta">Hola planeta</string>
+    <string name="hola_universo">Hola universo</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Te damos la bienvenida"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#f975d9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿CÓMO PODEMOS AYUDARTE?"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView1"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/boton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PERDER PESO"
+        android:textSize="20sp"
+        android:backgroundTint="#f7c1ea"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView2"
+        android:layout_marginBottom="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        android:id="@+id/boton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VOLVERME MÁS FUERTE"
+        android:textSize="20sp"
+        android:backgroundTint="#f7c1ea"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/boton1"
+        android:layout_marginBottom="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        android:id="@+id/boton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MANTENERME EN FORMA"
+        android:textSize="20sp"
+        android:backgroundTint="#f7c1ea"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/boton2"
+        android:layout_marginBottom="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/boton3"
+        android:background="#f7c1ea"
+        android:text="SIGUIENTE"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="40sp"/>
+
+</RelativeLayout>

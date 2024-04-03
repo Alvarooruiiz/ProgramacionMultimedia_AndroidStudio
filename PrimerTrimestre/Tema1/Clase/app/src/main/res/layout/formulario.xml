@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <TableRow android:padding="5dp">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Formulario"
+            android:typeface="serif"
+            android:layout_span="2"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Código del producto"/>
+        <EditText
+            android:id="@+id/prod_cod"
+            android:layout_height="wrap_content"/>
+<!--        no hace falta expandir el edittext porque arriba ha puesto que la columna 1 se expanda-->
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Nombre del producto"/>
+        <EditText
+            android:id="@+id/prod_name"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Precio del producto"/>
+        <EditText
+            android:id="@+id/prod_price"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+    <Space
+        android:layout_height="20dp"/>
+    <TableRow>
+        <Button
+            android:id="@+id/add_button"
+            android:text="Añadir"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/cancel_button"
+            android:text="Cancelar"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+
+</TableLayout>

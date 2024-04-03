@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/screen1.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewScreen1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pantalla 1" />
+
+    <Spinner
+        android:id="@+id/spinnerScreen1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnContextualMenuScreen1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menú Contextual"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

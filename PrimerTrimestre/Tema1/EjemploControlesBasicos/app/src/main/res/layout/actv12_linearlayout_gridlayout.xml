@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aficiones"
+        android:background="#F6A15E"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <GridLayout
+        android:id="@+id/layoutCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="4">
+        <CheckBox
+            android:id="@+id/ch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lectura"/>
+        <CheckBox
+            android:id="@+id/ch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teatro"/>
+        <CheckBox
+            android:id="@+id/ch3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senderismo"/>
+        <CheckBox
+            android:id="@+id/ch4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fotografía"/>
+        <CheckBox
+            android:id="@+id/ch5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Escritura"/>
+        <CheckBox
+            android:id="@+id/ch6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voleibol"/>
+        <CheckBox
+            android:id="@+id/ch7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Escalada"/>
+        <CheckBox
+            android:id="@+id/ch8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trial"/>
+    </GridLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elige un género literario"
+        android:background="#F6A15E"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+        <RadioGroup
+            android:id="@+id/grupoGenLit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/radioFant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fantasía"/>
+            <RadioButton
+                android:id="@+id/radioCienc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ciencia Ficción"/>
+            <RadioButton
+                android:id="@+id/radioNarra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Narrativa"/>
+            <RadioButton
+                android:id="@+id/radioHist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Histórica"/>
+        </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elige un deporte"
+        android:background="#F6A15E"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/grupoDeporte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Runnning"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voleibol"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hípica"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patinaje"/>
+    </RadioGroup>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="1">
+
+        <Button
+            android:id="@+id/btnResetear"
+            android:layout_column="2"
+            android:text="Resetear"/>
+        <Button
+            android:id="@+id/btnAceptar"
+            android:layout_column="3"
+            android:text="Aceptar"/>
+
+    </GridLayout>
+    <TextView
+        android:id="@+id/lbl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

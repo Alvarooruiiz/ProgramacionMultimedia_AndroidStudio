@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="miSpinnerValores">
+        <item>Truco</item>
+        <item>Trato</item>
+    </string-array>
+</resources>

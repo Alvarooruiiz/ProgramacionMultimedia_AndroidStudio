@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f6e7d3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valoración"
+        android:textSize="25sp"
+        android:textColor="#9f0a28"/>
+
+    <EditText
+        android:id="@+id/txtNombreUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de usuario"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/txtResena"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="Escriba una breve reseña..."
+        android:layout_margin="10dp"/>
+
+    <Spinner
+        android:id="@+id/spnTipoCuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="30px"/>
+
+    <Switch
+        android:id="@+id/switchRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:thumbTint="#9f0a28"
+        android:layout_margin="10dp" />
+
+    <RatingBar
+        android:id="@+id/miRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="2.0"
+        android:stepSize="1.0"
+        android:progressTint="#9f0a28"
+        android:visibility="invisible" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#9f0a28"/>
+    </RelativeLayout>
+</LinearLayout>

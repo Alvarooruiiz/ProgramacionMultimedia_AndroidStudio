@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextLanzamiento"
+        android:layout_below="@id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lanzamiento"
+        android:layout_margin="16dp"
+        android:layout_marginTop="8dp"/>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/linear"
+    android:layout_below="@id/editTextLanzamiento">
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_below="@id/editTextLanzamiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar"
+        android:layout_margin="16dp"
+        android:layout_marginTop="8dp"/>
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_below="@id/btnMostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:layout_margin="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_below="@id/btnEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar"
+        android:layout_margin="16dp"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
+
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_below="@id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:verticalSpacing="16dp"
+        android:horizontalSpacing="16dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="8dp"/>
+</RelativeLayout>

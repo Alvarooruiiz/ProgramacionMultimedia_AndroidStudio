@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#686868">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="4"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:text="Nombre"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:text="Fecha de nacimiento"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/etFecNac"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/white"
+            android:inputType="date"/>
+        <CheckBox
+            android:id="@+id/cbRecor"
+            android:text="Crear recordatorio"
+            android:layout_column="1"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnAceptar"
+            android:layout_width="275dp"
+            android:layout_column="1"
+            android:text="ACEPTAR" />
+
+    </GridLayout>
+    <TextView
+        android:id="@+id/txtRecordatorio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sistemas">
+        <item>WINDOWS</item>
+        <item>LINUX</item>
+        <item>IOS</item>
+    </string-array>
+    <string-array name="sistemasEntries">
+        <item>WIN</item>
+        <item>LIN</item>
+        <item>IOS</item>
+    </string-array>
+
+</resources>
